@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Name: CashierConsumer
+Bundle-SymbolicName: CashierConsumer
+Bundle-Activator: cashierconsumer.ConsumerActivator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.mtit.serviceSewmi,
+ org.osgi.framework;version="1.3.0"
